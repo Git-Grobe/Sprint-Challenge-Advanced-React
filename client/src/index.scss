@@ -206,11 +206,23 @@ h4 {
     margin: 10px;
     border: 1px solid grey;
     background-color: grey;
+    text-align: center;
+    width: 15%;
+    border-radius: 5px;
+    
+    h2 {
+      padding: 3px;
+    }
+
+    p {
+      padding: 3px;
+    }
 }
 
 .playerCards {
   display: flex;
   justify-content: center;
+  
 }
 
 .dark-mode {

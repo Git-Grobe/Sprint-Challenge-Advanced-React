@@ -39,6 +39,7 @@ export const PlayerCard = props => {
       <div className="player">
         <h2>{props.id}.</h2>
         <h2>{props.name}</h2>
+        <p>{props.country}</p>
         <p>Searched for {props.searches} times</p>
       </div>
     </div>

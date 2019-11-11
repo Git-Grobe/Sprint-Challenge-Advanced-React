@@ -33,6 +33,7 @@ class App extends React.Component {
               id={player.id + 1}
               key={player.id}
               name={player.name}
+              country={player.country}
               searches={player.searches}
             />
           ))}
